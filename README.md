@@ -1,3 +1,30 @@
+# HOTELBOT (Happy Path)
+
+## Installing python libraries
+
+```
+$ source env/bin/activate
+$ pip install setup.py
+$ pip install . upgrade
+```
+## Starting the chatbot
+```
+$ cd example
+$ python server.py
+```
+## Start ngrok
+```
+$ ngrok http 5000
+```
+# Finally edit the config.py script
+```python
+CONFIG = {
+    'FACEBOOK_TOKEN': '6Tcu1t4A3M4Lp..........................8uJYRAX1ZCIDVSZBG04nL4glZCRdZBJ3ZAQZDZD',
+    'VERIFY_TOKEN': 'verify_hotelbot',
+    'SERVER_URL': 'https://b7ba31de.ngrok.io'
+}
+```
+
 # FBMQ (Facebook Messenger Platform Python Library)
 [![PyPI](https://img.shields.io/pypi/v/fbmq.svg?v=1&maxAge=3601)](https://pypi.python.org/pypi/fbmq)
 [![Build Status](https://travis-ci.org/conbus/fbmq.svg?branch=master&v=1)](https://travis-ci.org/conbus/fbmq)
@@ -6,6 +33,7 @@
 
 A Python Library For Using The Facebook Messenger Platform API (Python Facebook Chat & Chatbot Library)
 Facebook messenger platform api full features are supported
+
 ## Table of Contents
 
 * [Install](#install)
@@ -398,4 +426,4 @@ python server.py
 ![](./example/assets/screen8.jpg)
 ![](./example/assets/screen9.jpg)
 ![](./example/assets/screen10.jpg)
-# hotelBotOne
+
