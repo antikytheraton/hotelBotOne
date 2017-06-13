@@ -1,5 +1,7 @@
 # HOTELBOT (Happy Path)
 
+![](./example/assets/hotel.jpg)
+
 ## Installing python libraries
 
 ```
