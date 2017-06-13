@@ -1,5 +1,5 @@
 CONFIG = {
-    'FACEBOOK_TOKEN': 'EAABeoUA4ipgBAHn8FZCD8X87axh0mit3gj7DFZBHNe6Tcu1t4A3M4LpFijdRxjofaxE0fHid10IHmaEV3NgnhsJEAB70jZAaNorgiMA8EUT9eD0NFK4fN1X8uppmFybFk2O9qWwjyBb8uJYRAX1ZCIDVSZBG04nL4glZCRdZBJ3ZAQZDZD',
+    'FACEBOOK_TOKEN': 'EAABeoUA4ipgBAOj7qLRu12nWH7fitOqpApqui7QF4s8Q0UwhWoARHPzABL3VzcDESyOB8DIg8z5jLb48Oek8wWiNi2z6xzQ28pKfhF4eJ5ZCOs8Atn2yrFpBV5q7q5tSEkUvQyxcWW9tc1ETi9JSBULyEKU3nvoviGZA0umgZDZD',
     'VERIFY_TOKEN': 'verify_hotelbot',
-    'SERVER_URL': 'https://b7ba31de.ngrok.io'
+    'SERVER_URL': 'https://hotel-bot-one.herokuapp.com/'
 }
